@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Scripting Tag</title>
 </head>
 <body>
-	<h1>Welcome to Book Shopping Mall</h1>
-	<h3>Welcome to web Market!</h3>
+	<p><a href="home">home</a><p>
+	<%! int data=50; %>
+	<% out.println("Value of the variable is : "+data); %>	
 </body>
 </html>
