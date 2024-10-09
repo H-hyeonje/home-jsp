@@ -7,10 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p>예제 실습</p>
-	<a href="2_1">2-1예제</a>
-	<a href="2_2">2-2예제</a>
-	<a href="2_3">2-3예제</a>
-	<a href="2_4">2-4예제</a>
+<p><a href="home">home</a></p>
+	<%
+	     int a=5;
+		int b=6;
+		int sum=a+b;
+		out.println(a+" + "+b+" = "+sum);
+	
+	%>
 </body>
 </html>
