@@ -7,6 +7,7 @@
 <title>Scripting Tag</title>
 </head>
 <body>
+	<p>클래스변수</p>
 	<p><a href="home">home</a><p>
 	<%! int data=50; %>
 	<% out.println("Value of the variable is : "+data); %>	

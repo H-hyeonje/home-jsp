@@ -7,11 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>클래스함수 사용</p>
-<p><a href="home">home</a></p>
-	<%! int sum(int a,int b){
-		return a+b;}
-		%>
-	<% out.println("2 + 3 = "+sum(2,3)); %>
+ 	<p>짝수 뽑기</p>
+	<p><a href="home">home</a></p>
+	<%
+	  for(int i=0; i<=10;i++){
+		  if(i%2==0){
+			  out.println(i+"<br>");
+		  }
+	  }
+	
+	%>
 </body>
 </html>

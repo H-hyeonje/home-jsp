@@ -8,6 +8,7 @@
 </head>
 <body>
 <p><a href="home">home</a></p>
+<p>지역 변수 계산</p>
 	<%
 	     int a=5;
 		int b=6;

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<p>클래스함수 사용</p>
 <p><a href="home">home</a></p>
 	<%! String makeItLower(String data){
 	  return data.toLowerCase();	
