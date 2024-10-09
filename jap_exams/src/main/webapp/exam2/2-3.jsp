@@ -7,9 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p>예제 실습</p>
-	<a href="2_1">2-1예제</a>
-	<a href="2_2">2-2예제</a>
-	<a href="2_3">2-3예제</a>
+<p><a href="home">home</a></p>
+	<%! String makeItLower(String data){
+	  return data.toLowerCase();	
+	}%>
+	<% out.println(makeItLower("HELLO WORLD!")); %>
 </body>
 </html>
